@@ -1,0 +1,31 @@
+.card-container {
+  width: 45vh;
+  height: 40vh;
+  background-color: #fff;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-icon {
+  position: relative;
+  top: -40px;
+  right: -20px;
+  border-radius: 50px;
+  background-color: rgb(30, 2, 34);
+  padding: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(35, 28, 34);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(75, 73, 75);
+  
+ 
+}

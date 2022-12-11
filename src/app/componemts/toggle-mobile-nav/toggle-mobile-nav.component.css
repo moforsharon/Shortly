@@ -1,0 +1,16 @@
+.toggle-menu {
+  visibility: collapse;
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (max-width: 600px),
+only screen and (max-width: 940px) {
+  .toggle-menu {
+    visibility: visible;
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+  }
+}

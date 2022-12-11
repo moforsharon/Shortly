@@ -1,0 +1,31 @@
+section {
+
+  background-color: rgb(230, 228, 228);
+
+}
+
+.statistics {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.statistics .large-txt {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(39, 37, 41);
+  margin-bottom: 10px;
+}
+
+.statistics .small-txt {
+  font-size: small;
+  font-weight: bold;
+  color: rgb(68, 61, 66);
+  margin-bottom: 200px;
+}
+.card-line{
+  margin: auto;
+  width: 120vh;
+  height: 1vh;
+  text-align: center;
+  background-color: rgb(0, 191, 255);
+}

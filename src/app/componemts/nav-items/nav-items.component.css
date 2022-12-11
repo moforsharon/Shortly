@@ -1,0 +1,25 @@
+.nav {
+  background-color: rgb(28, 2, 53);
+  margin: 40px;
+  height: 40vh;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+ul{
+ 
+  width: 30vh;
+  margin: auto;
+}
+.item {
+  list-style: none;
+
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.divider{
+  border-top: 1px solid rgb(192, 189, 189);
+}

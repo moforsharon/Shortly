@@ -1,0 +1,37 @@
+footer {
+  background-color: rgb(5, 1, 6);
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  height: 30vh;
+  padding-top: 50px;
+}
+
+.footer-item h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.features-item {
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgb(152, 147, 147);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-item {
+  list-style: none;
+  font-size: 12px;
+  margin-left: 12px;
+}

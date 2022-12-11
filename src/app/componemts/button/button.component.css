@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(86, 82, 82);
+  background-color: white;
+}
+
+.btn:hover {
+  color: rgb(42, 41, 41)
+}
+
+@media only screen and (max-width: 600px),
+only screen and (max-width: 940px) {
+  .btn {
+    visibility: hidden;
+  }
+}
