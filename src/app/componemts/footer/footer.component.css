@@ -35,3 +35,51 @@ footer {
   font-size: 12px;
   margin-left: 12px;
 }
+
+@media only screen and (max-width: 375px),
+only screen and (max-width: 600px) {
+  footer {
+    background-color: rgb(5, 1, 6);
+    display: block;
+    justify-content: space-between;
+    color: #fff;
+    height: auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .footer-item h1 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .features-item {
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(152, 147, 147);
+  }
+
+  .title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .icon-item {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+  }
+
+}

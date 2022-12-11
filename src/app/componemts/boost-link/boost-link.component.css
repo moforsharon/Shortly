@@ -1,5 +1,6 @@
 .boost-link{
-  background-image: url('../../../assets/images/bg-boost-desktop.svg');
+  margin: 0;
+  background-image: url('../../../assets/images/bg-boost-mobile.svg');
   background-color: rgb(30, 2, 56);
   background-size: cover;
   height: 25vh;

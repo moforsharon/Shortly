@@ -1,5 +1,15 @@
-.card-items{
+.card-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 375px),
+only screen and (max-width: 940px) {
+  .card-items {
+    display: block;
+    justify-content: space-around;
+
+  }
+
 }

@@ -12,5 +12,7 @@ export class StyledButtonComponent {
   @Input() padding: string | undefined;
   @Input() margin: string | undefined;
   @Input() visibility: string | undefined;
+  @Input() width: string | undefined;
+  @Input() height: string | undefined;
 
 }

@@ -26,6 +26,42 @@ h3 {
 p {
   font-size: 15px;
   color: rgb(75, 73, 75);
-  
- 
+
+
+}
+
+@media only screen and (max-width: 375px),
+only screen and (max-width: 940px) {
+  .card-container {
+    width: 35vh;
+    height: 34vh;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-icon {
+    position: relative;
+    top: -40px;
+    right: -70px;
+    border-radius: 50px;
+    background-color: rgb(30, 2, 34);
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: rgb(35, 28, 34);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 11px;
+    color: rgb(75, 73, 75);
+
+
+  }
 }

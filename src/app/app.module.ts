@@ -16,6 +16,7 @@ import { BoostLinkComponent } from './componemts/boost-link/boost-link.component
 import { FooterComponent } from './componemts/footer/footer.component';
 import { ToggleMobileNavComponent } from './componemts/toggle-mobile-nav/toggle-mobile-nav.component';
 import { NavItemsComponent } from './componemts/nav-items/nav-items.component';
+import { ShortenedLinkComponent } from './componemts/shortened-link/shortened-link.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NavItemsComponent } from './componemts/nav-items/nav-items.component';
     BoostLinkComponent,
     FooterComponent,
     ToggleMobileNavComponent,
-    NavItemsComponent
+    NavItemsComponent,
+    ShortenedLinkComponent
     
   ],
   imports: [
