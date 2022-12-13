@@ -1,16 +1,20 @@
 .shorten-link-sec {
   position: relative;
-  top: -50px;
+  top: -55px;
   justify-content: center;
   text-align: center;
   border-radius: 10px;
-  height: 15vh;
+  height: 20vh;
   width: 130vh;
   align-self: center;
   margin: auto;
   background-image: url("../../../assets/images/bg-shorten-desktop.svg");
   background-size: cover;
   background-color: rgb(28, 16, 40);
+}
+
+.link-sec {
+  display: block;
 }
 
 .link-input {
@@ -22,10 +26,27 @@
   border: none;
 }
 
+.none {
+  visibility: collapse;
+  width: 0;
+  height: 0;
+}
+
+.visible {
+  color: red;
+  font-size: x-small;
+  text-align: start;
+  margin-left: 35px;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
 @media only screen and (max-width: 375px),
 only screen and (max-width: 940px) {
   .shorten-link-sec {
-    
+
     position: relative;
     top: -60px;
     justify-content: center;
@@ -40,6 +61,13 @@ only screen and (max-width: 940px) {
     background-color: rgb(28, 16, 40);
   }
 
+  .visible {
+    color: red;
+    font-size: x-small;
+    text-align: start;
+    margin-left: 50px;
+  }
+
   .link-input {
     width: 40vh;
     height: 6vh;
@@ -47,5 +75,9 @@ only screen and (max-width: 940px) {
     margin: 30px;
     border-radius: 5px;
     border: none;
+  }
+
+  .border-red {
+    border: 1px solid red;
   }
 }

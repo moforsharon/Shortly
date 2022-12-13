@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormsModule} from '@angular/forms'
+import {HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +19,7 @@ import { FooterComponent } from './componemts/footer/footer.component';
 import { ToggleMobileNavComponent } from './componemts/toggle-mobile-nav/toggle-mobile-nav.component';
 import { NavItemsComponent } from './componemts/nav-items/nav-items.component';
 import { ShortenedLinkComponent } from './componemts/shortened-link/shortened-link.component';
+import { InputComponent } from './componemts/input/input.component';
 
 @NgModule({
   declarations: [
@@ -33,13 +36,16 @@ import { ShortenedLinkComponent } from './componemts/shortened-link/shortened-li
     FooterComponent,
     ToggleMobileNavComponent,
     NavItemsComponent,
-    ShortenedLinkComponent
-    
+    ShortenedLinkComponent,
+    InputComponent
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+     FormsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

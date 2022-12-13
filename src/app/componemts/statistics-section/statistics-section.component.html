@@ -1,5 +1,5 @@
 <section>
-  <app-shorten-link></app-shorten-link>
+  <app-shorten-link (onAddLink)="postLink($event)"></app-shorten-link>
   <app-shortened-link></app-shortened-link>
   <div class="statistics">
     <h1 class="large-txt">Advanced Statistics</h1>

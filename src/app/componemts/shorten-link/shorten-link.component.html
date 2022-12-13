@@ -1,4 +1,8 @@
 <div class="shorten-link-sec">
-  <input class="link-input" type="text"  placeholder="shorten a link here">
-  <app-styled-button color="#42bff5" visibility="visible" padding="10px 100px" radius="5px" text="Shorten it!" margin="auto"></app-styled-button>
+  <p [ngClass]="link !== '' ? 'none' : 'visible'">Please add a link</p>
+  <form (ngSubmit)="onSubmit()" class=" link-sec">
+    <input id="link" name="link" [ngClass]="link !== '' ? 'no-border' : 'border-red'"   [(ngModel)]="link" class="link-input" type="text"  placeholder="shorten a link here">
+  <app-styled-button type="submit" color="#42bff5" visibility="visible" padding="10px 100px" radius="5px" text="Shorten it!" margin="auto"></app-styled-button>
+  </form>
 </div>
+

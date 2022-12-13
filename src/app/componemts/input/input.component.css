@@ -1,0 +1,21 @@
+.link-input {
+  width: 80vh;
+  height: 6vh;
+  padding: 5px;
+  margin: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+@media only screen and (max-width: 375px),
+only screen and (max-width: 940px) {
+
+  .link-input {
+    width: 40vh;
+    height: 6vh;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: none;
+  }
+}
