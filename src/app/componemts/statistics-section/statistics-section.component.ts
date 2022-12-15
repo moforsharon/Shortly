@@ -10,14 +10,17 @@ export class StatisticsSectionComponent {
         LINKS: Link[] = [{
           ok: true,
           result: {
-                    code: "1",
-        short_link: "hello",
-        original_link: "hi"
+            code: "hello",
+            short_link: "<BNKCHxLKJHSFJKNC",
+            original_link: "jfkhalkh kjhsadlh asdhfd"
+
           }
-      }];
+        }];
    constructor(private linkService : LinkService) {}
      postLink(link: string) {
       this.linkService.postLink(link).subscribe((res : any) => (this.LINKS.push(res)));
+      this.LINKS = this.LINKS
       console.log(this.LINKS)
   }
+
 }

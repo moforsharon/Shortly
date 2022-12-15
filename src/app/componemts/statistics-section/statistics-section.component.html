@@ -1,6 +1,6 @@
 <section>
   <app-shorten-link (onAddLink)="postLink($event)"></app-shorten-link>
-  <app-shortened-link></app-shortened-link>
+  <app-shortened-link *ngFor="let link of LINKS" [link] = "link"></app-shortened-link>
   <div class="statistics">
     <h1 class="large-txt">Advanced Statistics</h1>
     <p class="small-txt">Track how your links are performing across the web with our advanced statistics dashboard</p>

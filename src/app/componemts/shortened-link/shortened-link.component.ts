@@ -10,17 +10,10 @@ import { LINKS } from 'src/app/LinkCollection';
 })
 export class ShortenedLinkComponent {
    @Output() onAddLink: EventEmitter<string> = new EventEmitter()
-   link: string = ""
-   @Input() links!: Link;
+   @Input() link!: Link
+   //link: string = ""
    subscription!: Subscription;
-                LINKS: Link[] = [{
-          ok: true,
-          result: {
-                    code: "1",
-        short_link: "hello",
-        original_link: "hi"
-          }
-      }];
+   LINKS: Link[] = [];
 
    constructor(private linkService : LinkService) {}
      postLink(link: string) {

@@ -1,9 +1,9 @@
-<div  class="link-sec" *ngFor="let link of LINKS ">
-  <a class="item"  href="">{{ link.result.original_link}}</a>
+<div  class="link-sec">
+  <a class="item longLink"  href="">{{ link.result.original_link}}</a>
   <div class="shortLink">
     <a class="item" href="">{{ link.result.short_link}}</a>
      <div  class="item">
-      <app-styled-button visibility="visible" text="Copy" color=" hsl(180, 66%, 49%)" padding="5px 80px" radius="5px"></app-styled-button>
-  </div>
+      <app-styled-button visibility="visible" text="Copy" color=" hsl(180, 66%, 49%)" padding="5px 80px" margin="0px 0px 10px 0px" radius="5px"></app-styled-button>
+    </div>
   </div>
 </div>

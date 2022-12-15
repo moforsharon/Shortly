@@ -26,18 +26,31 @@ only screen and (max-width: 940px) {
     margin: auto;
     margin-bottom: 10px;
     width: 70%;
-    height: 15vh;
+    height: 19vh;
     background-color: #fff;
     border-radius: 5px;
     text-align: center;
+    font-size: x-small;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
   }
 
   .shortLink {
     justify-content: space-between;
     display: block;
+    margin-top: 25px;
+    border-top: 1px solid rgb(202, 200, 200);
+
   }
 
   .shortLink a {
     margin-right: 0;
+    color: hsl(180, 66%, 49%);
+    padding: 10px;
+    margin-top: 15px;
   }
 }

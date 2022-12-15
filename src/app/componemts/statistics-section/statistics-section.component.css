@@ -28,7 +28,7 @@ section {
   width: 120vh;
   height: 1vh;
   text-align: center;
-  background-color: rgb(0, 191, 255);
+  background-color: hsl(180, 66%, 49%);
 }
 
 @media only screen and (max-width: 375px),
