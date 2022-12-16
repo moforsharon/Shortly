@@ -1,5 +1,5 @@
 {
-  "/api": {
+  "https://moforsharon.github.io/Shortly/api": {
     "target": "https://api.shrtco.de/v2/shorten",
     "secure": true,
     "changeOrigin": true,
