@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class LinkService {
- private apiUrl = 'api/'
+ private apiUrl = 'https://api.shrtco.de/v2/shorten'
   constructor(private http:HttpClient) { }
     postLink(link: string):Observable<string> {
     // return this.http.post<string>(this.apiUrl , `${link}`);
